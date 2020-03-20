@@ -57,10 +57,104 @@ html, body {
     font-family: 'Titillium Web', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4, h5, h6 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+.bodyClass {
+	margin-left: 25%;
+}
+
+.Flexcontainer {
+	display: flex;
+}
+header nav {
+	display: inline-block;/
+	margin-top: 60px;
+	
+}
+header nav a {
+	margin: 0 20px;
+	color: gray;
+	text-decoration: none;
+}
+header .logoOne{
+	margin-left: 130px;
+	padding-top: 10px;
+}
+
+.innovationFlex {
+	display:flex;
+}
+
+.Innovation{
+	margin-left: 100px;
+	margin-top: 100px;
+	padding: 70px 0; 
+	font-size: 60px;
+	font-family: 'Bangers', 'cursive';
+	text-align: center;
+	vertical-align: center;
+}
+
+.roundImage {
+	display:flex;
+}
+.roundTwo {
+	margin-top: 70px;
+	margin-left: 150px;
+	vertical-align: top;
+}
+ .features {
+	 width: 445px;
+	 padding-top: 10px;
+ }
+ .about {
+	 margin-top: 10px;
+	 margin-bottom: 35px;
+	 width: 425px;
+ }
+ .container2 {
+	 display: flex;
+	 font-weight: bold;
+	 margin-left: 40px;
+	 width: 900px;
+	 border-top: 1px solid black;
+ }
+ .bottomImage {
+	margin-left: 50px;
+}
+.servicesTitle {
+	width: 250px;
+}
+.productTitle {
+	margin-left: 20px;
+	width: 250px;
+}
+.visionTitle {
+	margin-left: 20px;
+	width: 250px;
+}
+.container3 {
+	display: flex;
+	width: 800px;
+	font-weight: bold;
+	margin-left: 50px;
+	margin-top: 35px;
+	padding-bottom: 35px;
+	margin-bottom: 35px;
+	border-bottom: 1px solid black;
+}
+.contactTitle {
+	font-weight: bold;
+	margin-left: 65px;
+}
+
+footer {
+	font-weight: bold;
+	margin-top: 65px;
+	margin-left: 500px;
+}
